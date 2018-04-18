@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AutoProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="AutoProject-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="AutoProject:war exploded" />
+    </root>
+  </artifact>
+</component>

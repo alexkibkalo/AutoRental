@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="MailLibs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/MailLibs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/MailLibs" />
+      <root url="jar://$PROJECT_DIR$/MailLibs/dsn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MailLibs/imap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MailLibs/mailapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MailLibs/pop3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MailLibs/smtp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MailLibs/smtp.jar!/com/sun/mail/smtp" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/MailLibs" recursive="false" />
+  </library>
+</component>
