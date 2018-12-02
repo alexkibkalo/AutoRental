@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="78385bec-04d1-4a68-816c-2b82ec2182de" name="Default" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/database/DAO/User/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/database/DAO/User/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/database/DAO/User/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/database/DAO/User/UserDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/interfaces/CarFilterImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/interfaces/CarFilterImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/servlets/ConnectWithUs.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/servlets/ConnectWithUs.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/servlets/EnterForm.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/servlets/EnterForm.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/servlets/RegistrationCar.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/servlets/RegistrationCar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/utils/CarFilter.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/utils/CarFilter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/utils/MailServlet.java" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/kibkalo/utils/MailServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/PageCarPark.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/PageCarPark.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/PageWithSortedByName.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/PageWithSortedByName.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/PageWithSortedByPrice.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/PageWithSortedByPrice.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/target/AutoProject-1.0-SNAPSHOT/PageCarPark.jsp" afterPath="$PROJECT_DIR$/target/AutoProject-1.0-SNAPSHOT/PageCarPark.jsp" />
       <change beforePath="$PROJECT_DIR$/target/AutoProject-1.0-SNAPSHOT/PageWithSortedByName.jsp" afterPath="$PROJECT_DIR$/target/AutoProject-1.0-SNAPSHOT/PageWithSortedByName.jsp" />
       <change beforePath="$PROJECT_DIR$/target/AutoProject-1.0-SNAPSHOT/PageWithSortedByPrice.jsp" afterPath="$PROJECT_DIR$/target/AutoProject-1.0-SNAPSHOT/PageWithSortedByPrice.jsp" />
@@ -859,8 +846,16 @@
       <workItem from="1537741091906" duration="1456000" />
       <workItem from="1537747885021" duration="3000" />
       <workItem from="1538510214084" duration="630000" />
-      <workItem from="1543758788075" duration="831000" />
+      <workItem from="1543758788075" duration="866000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1543759699152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543759699152</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -872,7 +867,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422708000" />
+    <option name="totallyTimeSpent" value="422743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
