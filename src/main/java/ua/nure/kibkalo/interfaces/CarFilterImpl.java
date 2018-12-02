@@ -14,6 +14,4 @@ public interface CarFilterImpl {
      *входящие параметры список автомобилей List<Car>, название автомобиля String*/
     List<Car> CarsSelectByName(List<Car> cars, String name);
 
-    List<Car> CarsSelectByFuelConsumption(List<Car> cars, Double min, Double max);
-
 }

@@ -75,10 +75,11 @@ public class RegistrationCar extends HttpServlet{
                 Integer count_of_user = carPayment(price, username, functionDriver, amount_of_day);
 
                 try {
+                    MailServlet.sendMessageSuccessfullyRegistration(email, name, model, day);
+
                     if (count_of_user < 0) {
                         req.getRequestDispatcher("jsp-user/NotEnoughMoney.jsp").forward(req, resp);
                     } else {
-                        MailServlet.sendMessageSuccessfullyRegistration(email, name, model, day);
                         new UserDaoImpl().countUpdate(count_of_user, username);
                         session.setAttribute("count", count_of_user);
                         req.getRequestDispatcher("PageCarRegistration.jsp").forward(req, resp);

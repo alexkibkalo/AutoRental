@@ -68,7 +68,6 @@
                 <option selected="selected"> </option>
                 <option>Select by name</option>
                 <option>Select by quality class</option>
-                <option>Select by power</option>
                 </select>
                 <b>Select Name: </b><select name="select_n">
                 <option selected="selected"> </option>
@@ -87,10 +86,7 @@
                     <option>Econom</option>
                     <option>Medium</option>
                     <option>Business</option>
-                </select><br><br>
-                <b>Select power: </b>
-                <b> Min value: </b><input type="text" name="min"/>
-                <b> Max value: </b><input type="text" name="max"/>
+                </select>
                 <input type="submit" value="Apply"/>
             </form>
         </div>

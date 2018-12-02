@@ -2,6 +2,9 @@ package ua.nure.kibkalo.database.DAO.User;
 
 import ua.nure.kibkalo.beans.User;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -25,5 +28,8 @@ interface UserDao {
     /*Метод обновление статуса пользователя blocked/unlocked, входящие параметры новый статус спользователя String,
      *имя пользователя String*/
     void statusUpdate(String new_status, String username);
+
+    /*Метод общей части try/catch для методов addManager & statusUpdate*/
+    void CommonTryCatch(String parametr1, String parametr2, String sql, PreparedStatement statement, Connection connection, ResultSet rs);
 
 }

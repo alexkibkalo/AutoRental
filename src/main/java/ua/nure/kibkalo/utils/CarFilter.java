@@ -31,15 +31,4 @@ public class CarFilter implements CarFilterImpl{
         }
         return new_cars;
     }
-
-    @Override
-    public List<Car> CarsSelectByFuelConsumption(List<Car> cars, Double min, Double max){
-        List<Car> new_cars = new ArrayList<>();
-        for(Car car : cars){
-            if(car.getPower() > min && car.getPower() < max){
-                new_cars.add(car);
-            }
-        }
-        return new_cars;
-    }
 }

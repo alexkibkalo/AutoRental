@@ -35,7 +35,7 @@ public class ConnectWithUs extends HttpServlet {
             logger.info("User with email " + email + " send message!");
 
         } catch (MessagingException | ServletException e) {
-            JOptionPane.showMessageDialog(null, "Error! Try again!");
+            JOptionPane.showMessageDialog(null, "Error! ");
             req.getRequestDispatcher("PageConnectWithUs.jsp").forward(req, resp);
 
             logger.error("User with email " + email + " not send message!");

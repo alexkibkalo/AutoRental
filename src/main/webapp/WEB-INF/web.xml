@@ -4,7 +4,15 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-
+    <!--<servlet>
+        <servlet-name>EnterForm</servlet-name>
+        <servlet-class>ua.nure.kibkalo.servlets.EnterForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EnterForm</servlet-name>
+        <url-pattern>/EnterForm</url-pattern>
+    </servlet-mapping>
+-->
     <session-config>
         <session-timeout>
             30

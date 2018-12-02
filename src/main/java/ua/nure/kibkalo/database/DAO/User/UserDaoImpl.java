@@ -133,22 +133,12 @@ public class UserDaoImpl implements UserDao{
 
     @Override
     public void addManager(String login, String password) {
-        String sql_insert = "INSERT INTO autoproject.users (login, password, status) VALUES (?, ?, ?);";
+        String sql_insert = "INSERT INTO autoproject.users (login, password) VALUES (?, ?);";
         PreparedStatement statement = null;
         Connection connection = ConnectionDB.getConnection();
         ResultSet resultSet = null;
 
-        try{
-            statement = connection.prepareStatement(sql_insert);
-            statement.setString(1, login);
-            statement.setString(2, password);
-            statement.setString(3, "unlocked");
-            statement.executeUpdate();
-        }catch(SQLException ex){
-            ex.printStackTrace();
-        }finally{
-            SomeActions.closeActions(statement, resultSet, connection);
-        }
+        CommonTryCatch(login, password, sql_insert, statement, connection, resultSet);
     }
 
     @Override
@@ -158,10 +148,15 @@ public class UserDaoImpl implements UserDao{
         Connection connection = ConnectionDB.getConnection();
         ResultSet rs = null;
 
+        CommonTryCatch(new_status, username, sql_change, statement, connection, rs);
+    }
+
+    @Override
+    public void CommonTryCatch(String parametr1, String parametr2, String sql, PreparedStatement statement, Connection connection, ResultSet rs) {
         try{
-            statement = connection.prepareStatement(sql_change);
-            statement.setString(1, new_status);
-            statement.setString(2, username);
+            statement = connection.prepareStatement(sql);
+            statement.setString(1, parametr1);
+            statement.setString(2, parametr2);
             statement.executeUpdate();
         }catch(SQLException ex){
             ex.printStackTrace();
@@ -169,5 +164,4 @@ public class UserDaoImpl implements UserDao{
             SomeActions.closeActions(statement, rs, connection);
         }
     }
-
 }

@@ -52,7 +52,7 @@ public class MailServlet {
 
         Transport transport = session.getTransport("smtp");
 
-        transport.connect("smtp.gmail.com", "sanja380662924204@gmail.com", "123456789sanja");
+        transport.connect("smtp.gmail.com", "sanja380662924204@gmail.com", "alex_winner2015-2020");
         transport.sendMessage(message, message.getAllRecipients());
         transport.close();
     }
